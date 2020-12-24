@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #ffffff 0%, #ff66cc 100%) no-repeat;
+    height: 655px;
+margin: 0;
+background-color: #ff66cc;
+}
+.header{
+    background-color:transparent;
+    width: 100%;
+    height: 55px;
+    
+}
+.header a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:  'Langar', cursive;
+    color: #ff66cc;
+    float: left;
+    width: 33.33%;
+    height: 50px;
+    text-align: center;
+    margin-top: 5px;
+}
+.header .about a button{
+    border:none;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:  'Langar', cursive;
+    color: #ff66cc;
+}
+.header .home a button{
+    border:none;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:  'Langar', cursive;
+    color: #ff66cc;
+}
+.header .game a button{
+    border:none;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:  'Langar', cursive;
+    color: #ff66cc;
+}
+.header a:hover{
+    color: black;
+    background-color: #ff66cc;
+}
+.header:hover{
+    background-color: #ff66cc;  
+}
+.header .about button:hover{
+    color: black;
+    background-color: #ff66cc;
+}
+.header .home button:hover{
+    color: black;
+    background-color: #ff66cc;
+}
+.header .game button:hover{
+    color: black;
+    background-color: #ff66cc;
+}
+
+.msg img{ 
+    width: 500px;
+    height: 300px;
+}
+
+.msg2 p,h3{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nikalbutton{
+    font-size: 30px;
+    color: black;
+    background-color: #ff66cc;
+    border: 2px solid black;
+    box-shadow: 5px 10px black; 
+}
+
+.nikalbox{
+    width: 100%;
+    text-align: center;
+}
+.nikalimgbox{
+    text-align: center;
+}
+.nikalbutton:hover{
+    background-color: black;
+    color: #ff66cc;
+}
+
+.gameh1{
+    font-size: 30px;
+    text-align: center;
+}
+.gameimg{
+    text-align: center;
+}
+.gamebutton button{
+    font-size: 20px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #ff66cc;
+    box-shadow: 2px 2px #ffffff;
+}
+@media (min-width:768px) and (max-width:991px){
+    .header a{
+        font-size: 25px;
+        height: 45px;
+    }
+    .header .about a button{
+       
+        font-size: 25px;
+
+    }
+    .header .home a button{
+       
+        font-size: 25px;
+
+    }
+    .header .game a button{
+       
+        font-size: 25px;
+
+    }
+    .msg img{    
+        width: 400px;
+        height: 200px;
+    }
+    .msg2 p,h3{
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nikalimgbox{
+        text-align: center;
+    }
+    .nikalbutton{
+        font-size: 25px;
+        color: black;
+        background-color: #ff66cc;
+        border: 2px solid black;
+        box-shadow: 3px 8px black; 
+    }
+    
+    
+}
+
+@media (min-width:450px) and (max-width:767px){
+    .header a{
+        font-size: 20px;
+        height: 35px;
+    }
+    .header .about a button{
+       
+        font-size: 20px;
+
+    }
+    .header .home a button{
+       
+        font-size: 20px;
+
+    }
+    .header .game a button{
+       
+        font-size: 20px;
+
+    }
+    .msg img{
+        width: 300px;
+        height: 100px;
+    }
+    .msg2 p,h3{
+        font-size: 16px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nikalimgbox{
+        text-align: center;
+    }
+    .nikalbutton{
+        font-size: 20px;
+        color: black;
+        background-color: #ff66cc;
+        border: 2px solid black;
+        box-shadow: 2px 5px black; 
+        
+    }
+    
+    
+}
+
+@media (max-width:449px){
+    .header a{
+        font-size: 15px;
+        height: 25px;
+    }
+    .header .about a button{
+       
+        font-size: 15px;
+
+    }
+    .header .home a button{
+       
+        font-size: 15px;
+
+    }
+    .header .game a button{
+       
+        font-size: 15px;
+
+    }
+    .msg img{
+        width: 200px;
+        height: 50px;
+    }
+    .msg2 p,h3{
+        font-size: 12px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nikalimgbox{
+        text-align: center;
+    }
+    .nikalbutton{
+        font-size: 15px;
+        color: black;
+        background-color: #ff66cc;
+        border: 1px solid black;
+        box-shadow: 2px 5px black;  
+    }
+    .gameh1{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
